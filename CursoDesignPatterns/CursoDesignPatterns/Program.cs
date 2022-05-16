@@ -24,7 +24,6 @@ namespace CursoDesignPatterns
             orcamento.AdicionaItem(new Item("Geladeira", 250));
             orcamento.AdicionaItem(new Item("Fogão", 250));
             orcamento.AdicionaItem(new Item("Microondas", 250));
-            orcamento.AdicionaItem(new Item("XBOX", 250));
 
             double desconto = calculador.Calcula(orcamento);
             Console.WriteLine(desconto);
